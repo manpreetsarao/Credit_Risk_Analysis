@@ -1,6 +1,6 @@
 # Credit_Risk_Analysis
 ## Overview of the Analysis
-In this project, we want to look at how all the factors in our loan states csv helps predict whether someone is low or high-risk status. In this analysis, we used different supervised machine learning models to predict the target values. We used different methods to find out the best model for prediction. To evaluate the results we used confusion matrix, accuracy score and imbalanced classification report. 
+In this analysis, we want to predict best machine learning model for credit card risk. we used different supervised machine learning models to predict the target values. To evaluate the results we used confusion matrix, accuracy score and imbalanced classification report. 
 The Purpose of this analysis, to compare the output of different machine learning models to find the best one for prediction. 
 ## Results
 ### OverSampling
@@ -36,5 +36,5 @@ The  balanced accuracy for this model is 93%, the average precision is 99% and a
 
 ## Summary
 
-In the first four models we undersampled, oversampled and did a combination of both to try and determine which model is best at predicting which loans are the highest risk. The next two models we resampled the data using ensemble classifiers to try and predict which which loans are high or low risk. In our first four models our accuracy score is not as high as the ensemble classifiers and the recall in the oversampling/undersampling/mixed models is low as well. Typically in your models you want a good balance of recall and precision which is why I recommend the ensemble classifiers over the first four models. It appears that the Easy Ensemble had the best balance of all the models because of it's high accuracy score and good balance of precision and recall scores.
+To find the best fit model, we used ensemble classifer and resampling model techniques. For first four models we used undersampled, oversampled  and did a combination of both. The next two models ensemble classifiers to try and predict which loans are high or low risk. The accuracy score for first four models is not as high as the ensemble classifiers and the recall in the oversampling/undersampling/mixed models is low as well. Overall,  models  with a good balance of recall and precision are the ensemble classifiers. The best one is  the Easy Ensemble had the best balance of all the models because of it has high accuracy score and good balance of precision and recall scores.
 
